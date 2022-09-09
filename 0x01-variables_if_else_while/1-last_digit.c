@@ -4,7 +4,7 @@
 
 /**
  * main - prints the last digit of the random
- * number stored in the variabe
+ * number stored in the variabe n
  * Return: 0
  */
 int main(void)
