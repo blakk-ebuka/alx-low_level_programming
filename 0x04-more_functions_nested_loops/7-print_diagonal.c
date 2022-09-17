@@ -5,19 +5,24 @@
  * @n: the number of times the character \ should be printed
  * Return: no return.
  */
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
-	int i, j;
+	int len, space;
 
-	for (i = 0; i < n; i++)
+	if (n > 0)
 	{
-		for (j = 0; j < i; j++)
+		for (len = 0; len < n; len++)
 		{
-			_putchar(' ');
-		}
-		_putchar(92);
-		if (i < (n - 1))
+			for (space = 0; space < len; space++)
+				_putchar(' ');
+			_putchar('\\');
+
+			if (len == n - 1)
+				continue;
+
 			_putchar('\n');
+		}
 	}
+
 	_putchar('\n');
 }
