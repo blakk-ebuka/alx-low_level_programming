@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * puts_half - prints half of a string
- * @str: reference for a string.
+ * puts_half - function declared
+ * @str: assigned integer
  */
 void puts_half(char *str)
 {
