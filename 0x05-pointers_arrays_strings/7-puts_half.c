@@ -9,7 +9,8 @@ void puts_half(char *str)
 {
 	int m, i;
 
-	for (m = 0; str[m] != '\0'; m++);
+	for (m = 0; str[m] != '\0'; m++)
+
 	if (m % 2 == 0)
 	{
 		for (i = m / 2; str[i] != '\0'; i++)
