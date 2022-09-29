@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 
 int actual_prime(int n, int i);
 
 /**
- * is_prime_number - says if an integer is a prime number
+ * is_prime_number - says if an integer is a prime number or not
  * @n: number to evaluate
  *
  * Return: 1 if n is a prume number, otherwise return 0
